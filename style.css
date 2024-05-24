@@ -6,6 +6,13 @@ body {
 nav {
     background-color: green;
     width: 100%;
-    height: 75px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+img {
+    height: 25px;
+    padding: 25px;
 }
