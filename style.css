@@ -1,48 +1,26 @@
 body {
     margin: 0;
     height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
+
+
 
 nav {
-    background-color: green;
+    border: solid red 2px;
     width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    height: 10%;
 }
 
-img {
-    height: 25px;
-    padding: 25px;
+#container {
+    height: 100%;
+    border: solid yellow;
 }
 
-
-#left-container {
-    background-color: grey;
-    height: 250px;
-    border-radius: 18px;
-}
-
-#device {
-    display: flex;
-    align-items: center;
-}
-
-span {
-    font-size: 1.6em;
-}
-
-
-
-button {
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
-    border-radius: 12px;
-}
-
-button:hover {
-    background-color: green;
-    transition: all .3s;
+#left {
+     background-color: rgb(205, 214, 205);
+    height: 85%;
+    width: 25%;
+    border-radius: 15px;
 }
